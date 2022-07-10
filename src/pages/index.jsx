@@ -7,7 +7,7 @@ import Instructions from '@/components/dom/Instructions'
 // WARNING ! errors might get obfuscated by using dynamic import.
 // If something goes wrong go back to a static import to show the error.
 // https://github.com/pmndrs/react-three-next/issues/49
-const Shader = dynamic(() => import('@/components/canvas/Shader/Shader'), {
+const Box = dynamic(() => import('@/components/canvas/Box'), {
   ssr: false,
 })
 
@@ -24,7 +24,8 @@ const Page = (props) => {
 // It will receive same props as Page component (from getStaticProps, etc.)
 Page.r3f = (props) => (
   <>
-    <Shader />
+    {/* <Shader /> */}
+    <Box route='/' />
   </>
 )
 
