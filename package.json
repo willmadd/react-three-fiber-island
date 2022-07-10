@@ -25,10 +25,13 @@
     "@react-three/fiber": "^8.0.27",
     "babel-plugin-glsl": "^1.0.0",
     "glsl-random": "^0.0.5",
+    "leva": "^0.9.29",
     "next": "^12.1.6",
     "next-compose-plugins": "^2.2.1",
     "react": "^18.2.0",
+    "react-dat-gui": "^4.1.1",
     "react-dom": "^18.2.0",
+    "react-three-gui": "^0.4.2",
     "three": "^0.141.0",
     "three-stdlib": "^2.12.1",
     "zustand": "^4.0.0-rc.1"
