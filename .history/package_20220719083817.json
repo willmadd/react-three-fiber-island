@@ -1,6 +1,5 @@
 {
   "name": "react-three-next",
-  "homepage": "https://willmadd.github.io/react-three-fiber-island",
   "version": "2.0.0",
   "authors": [
     "Renaud ROHLINGER <https://twitter.com/onirenaud>"
@@ -18,9 +17,7 @@
     "build": "next build",
     "export": "EXPORT=true next build && EXPORT=true next export",
     "analyze": "ANALYZE=true next build",
-    "start": "next start",
-    "predeploy": "npm run export",
-    "deploy": "gh-pages -d out"
+    "start": "next start"
   },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.17.0",
